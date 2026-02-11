@@ -417,7 +417,7 @@
       <h2>Operations</h2>
 
       <section id="append-shared-with-me">
-        <subsection id="add-shared-with-me">
+        <section id="add-shared-with-me">
           <h3>Denoting granting of permissions to another agent's <code>sharedWithMe.ttl</code></h3>
           <p>
             Notifications for <code>sharedWithMe.ttl</code> are appended via a
@@ -439,9 +439,9 @@
                     &lt;http://www.w3.org/ns/auth/acl#Write&gt;;.
             }
           </pre>
-        </subsection>
+        </section>
 
-        <subsection id="revoke-shared-with-me">
+        <section id="revoke-shared-with-me">
           <h3>Denoting revocation of previously granted permissions to another agent's <code>sharedWithMe.ttl</code></h3>
           <p>
             To revoke permissions, a new entry with type <code>as:Undo</code> is
@@ -464,11 +464,11 @@
                     &lt;http://www.w3.org/ns/auth/acl#Write&gt;.
             }
           </pre>
-        </subsection>
+        </section>
       </section>
 
       <section id="append-shared-with-others">
-        <subsection id="add-shared-with-others">
+        <section id="add-shared-with-others">
           <h3>Denoting granting of permissions to another agent on your <code>sharedWithOthers.ttl</code></h3>
           <p>
             When the inbox owner grants or updates permissions of a resource for another agent,
@@ -493,8 +493,8 @@
                   &lt;http://purl.org/dc/terms/created&gt; "2025-09-08T16:18:38.002Z"^^&lt;http://www.w3.org/2001/XMLSchema#dateTime&gt;.
             }
           </pre>
-        </subsection> 
-        <subsection id="revoke-shared-with-others">
+        </section>
+        <section id="revoke-shared-with-others">
           <h3>Denoting revocation of previously granted permissions on your <code>sharedWithOthers.ttl</code></h3>
           <p>
             The following example appends a revocation entry that undoes a prior
@@ -515,7 +515,7 @@
                   &lt;http://www.w3.org/ns/auth/acl#mode&gt; &lt;http://www.w3.org/ns/auth/acl#Write&gt;.
             }
           </pre>
-        </subsection>
+        </section>
       </section>
     </section>
 
